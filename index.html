@@ -670,9 +670,9 @@ function renderCard(W=1080,H=1080){
   ctx.save();
   ctx.fillStyle='#fff';ctx.font='bold 27px "Noto Sans Telugu",sans-serif';
   ctx.shadowColor='rgba(0,0,0,.5)';ctx.shadowBlur=6;
-  ctx.fillText('నిజమైన వార్తలు ప్రజల కోసం',24,H-botH+48);
+  ctx.fillText('నిజమైన వార్తలు కోసం',24,H-botH+48);
   ctx.globalAlpha=.58;ctx.font='18px "Noto Sans Telugu",sans-serif';
-  ctx.fillText('BTV Digital  •  True News For People',24,H-botH+80);
+  ctx.fillText('BTV News  • Btvmedia.info',24,H-botH+80);
   ctx.restore();
 
   for(let i=0;i<5;i++){ctx.save();ctx.globalAlpha=.3;ctx.beginPath();ctx.arc(W-262+i*22,H-28,4,0,Math.PI*2);ctx.fillStyle='#fff';ctx.fill();ctx.restore();}
@@ -709,3 +709,4 @@ window.onload=()=>setTimeout(()=>{renderCard(1080,1080);updateCounts();},500);
 </script>
 </body>
 </html>
+
